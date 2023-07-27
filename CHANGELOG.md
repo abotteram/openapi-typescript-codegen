@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [0.26.0] - 2023-07-27
+- Fixes issue with duplicate parameters for openApi version 2.
+- Fixes an issue with invalid characters being used for function names. (e.g. `/${parameter}/get`, becomming `$-get`).
+
 ## [0.25.0] - 2023-07-05
 ### Fixed
 - Upgraded dependencies

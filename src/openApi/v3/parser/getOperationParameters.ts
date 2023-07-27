@@ -57,5 +57,6 @@ export const getOperationParameters = (openApi: OpenApi, parameters: OpenApiPara
             }
         }
     });
+
     return operationParameters;
 };
